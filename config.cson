@@ -1,0 +1,41 @@
+"*":
+  "atom-material-ui":
+    fonts: {}
+  core:
+    disabledPackages: [
+      "language-coffeescript-html"
+      "linter-coffeescript"
+      "linter-haml"
+      "language-babel"
+      "jshint"
+      "atom-runner"
+      "atom-jsx-transform"
+    ]
+    ignoredNames: [
+      "*.map"
+      "*.png"
+      "*.jpg"
+    ]
+    openEmptyEditorOnStart: false
+  editor:
+    fontSize: 17
+    invisibles: {}
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "7f2b6fa1-202a-6cc2-d035-12b1a7567018"
+  "fuzzy-finder":
+    ignoredNames: [
+      "node_modules"
+    ]
+  linter: {}
+  minimap:
+    displayCodeHighlights: false
+  "one-dark-ui": {}
+  "preview-plus":
+    cjsx: "JavaScript"
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
